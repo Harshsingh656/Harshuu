@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffebcd;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    font-family: 'Pacifico', sans-serif;
+    color: #ff6347;
+}
+
+.dog-animation {
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+    animation: wag-tail 2s infinite;
+}
+
+@keyframes wag-tail {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(10deg); }
+    100% { transform: rotate(0deg); }
+}
+
+.apology-message {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+button:hover {
+    background-color: #ff4500;
+}
